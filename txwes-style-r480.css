@@ -1,0 +1,70 @@
+@media screen and (min-width:0px) and (max-width:599px) {
+	
+	body { border-top: 4px solid #fed000; }
+	
+	#outerCT { width: 100%; min-width: 320px; position: relative; top: 0px; left: 0px; }
+	
+	#headerTop { border: none; width: 100%; }
+	#headerTop #logo { width: 224px; height: 51px; margin-top: -25px; left: 10px; }
+	#headerTop #pathways { display: none; }
+	#headerTop #directoryButton { right: 0px; margin-top: -19px; height: 38px; width: 90px; display: none; }
+	
+	#headerBottom { width: 100%; overflow: visible; margin-bottom: 10px; height: 0px; }
+	#headerBottom #searchCT { top: -65px; right: 108px; display: none; }
+	#headerBottom #searchCT .searchBar { width: 160px; }
+	#headerBottom #searchCT .searchBar input { width: 150px; }
+	#headerBottom #globalNav { top: 0px; left: 0px; margin: 0px; display: none; }
+	#headerBottom #globalNav li { padding: 10px 40px 10px 20px; width: 140px; }
+	#headerBottom #globalNav li:nth-child(1) { border-bottom: 1px solid #ccc; }
+	#headerBottom #globalNav li:nth-child(2) { border-bottom: 1px solid #ccc; }
+	#headerBottom #globalNav li:nth-child(3) { border-bottom: 1px solid #ccc; }
+	
+	#contentCT { width: 100%; background: none; }
+	
+	#footerCT { width: 100%; margin-top: 0px; margin-bottom: 0px; padding: 0px; }
+	#footerCT .footerItem { width: calc(50% - 50px); }
+	#footerCT .footerItem:last-child { display: none; }
+	#footerCT .footerItem #footerLogo { display: none; }
+	#footerCT .footerItem .contactMap { display: none; }
+	
+	#goToCT { width: 100%; height: auto; position: relative; bottom: 0px; left: 0px; margin-left: 0px; background-color: #f3f3f3; }
+	#goToCT .goToTitle { height: auto; background-color: #f3f3f3; position: initial; top: 0px; left: 0px; width: auto; background-color: #fff; padding: 5px 25px; }
+	#goToCT #goToNav { color: #666; margin: 20px 0px 0px 0px; }
+	#goToCT #goToNav li { margin-bottom: 10px; border-right: none; width: calc(33% - 40px); border-bottom: 1px dashed #ccc; padding-bottom: 10px; }
+	#goToCT #goToNav li:nth-child(7) { border: none; }
+	
+	#breadcrumb { background-color: #f3f3f3; float: none; width: auto; padding: 10px 25px; position: relative; top: 54px; right: 0px; z-index: 10; } /* jQuery get height of Parent Nav to get top */
+	
+	/* Navigation Elements */
+
+	#parentNav { position: relative; top: -36px; left: 0px; width: auto; background-image: none; background-color: #004b8d; } /* jQuery get height of breadcrumb * -1 to get top */
+	#sectionNav { width: 100%; display: none; }
+	#sectionNav li.sectionLink.current.sub { padding-right: 0px; }
+	#sectionNav #subNav { width: auto; }
+	
+	/* Page Layouts */
+
+	/* Column Layout Elements */
+
+	#columnCT { background-image: none; background-color: #f3f3f3; width: auto; margin-bottom: 0px; position: relative; top: 0px; left: 0px; overflow:visible; }
+	h1.pageTitle { width: auto; padding: 5px 0px 5px 25px; font-size: 1em; font-weight: bold; background-image: none; background-color: #fed000; color: #000000; margin-top: 0px; float: none; }
+	#columnCT #leftCol { width: auto; margin-right: 0px; float: none; padding-top: 0px; position: initial; }
+	#columnCT #centerCol { width: auto; background-color: #f3f3f3; padding: 0px 25px; float: none; overflow: auto; }
+	
+	/* 3 Column */
+	
+	#contentCT.threeCol #columnCT #centerCol { width: auto; border: none; padding: 0px 25px; margin-bottom: 300px; } /* Use ContactInfoCT height to set margin-bottom */
+	#contentCT.threeCol #columnCT #rightCol { display: none; }
+	
+	/* 1 Column */
+	
+	#contentCT.oneCol #breadcrumb { width: auto; left: 0px; }
+	#contentCT.oneCol #columnCT { background-image: none; }
+	#contentCT.oneCol #columnCT h1.pageTitle { width: auto; }
+	#contentCT.oneCol #columnCT #centerCol { width: auto; padding: 0px 25px; }
+	
+	/* Content Elements & Layouts */
+	
+	#contactInfoCT { width: 100%; margin-top: 0px; height: 300px; position: absolute; bottom: -300px; left: 0px; z-index: 10; background-color: #f3f3f3; }  /* Get ContactInfoCT height in jQuery and set here and * -1 to get bottom */
+	
+}

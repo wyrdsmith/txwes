@@ -1,0 +1,221 @@
+/* Universal Elements/Layouts */
+
+body { margin: 0px; padding: 0px; background-image: url('http://txwes.edu/media/twu/style-assets/images/homepage/bg.png'); font-family: Arial, sans-serif; }
+
+#outerCT { width: 1000px; margin-left: auto; margin-right: auto; }
+
+#headerCT { color: #ffffff; }
+
+#headerTop { width:1000px; height: 92px; border-bottom: 4px solid #fed000; position: relative; top: 0px; left: 0px; overflow: auto; }
+
+#headerTop #logo { background-image: url('http://txwes.edu/media/twu/style-assets/images/homepage/logo.png'); background-repeat: no-repeat; background-size: contain; width: 276px; height: 63px; position: absolute; top: 50%; left: 0px; margin-top: -33px; }
+
+#headerTop #pathways { list-style-type: none; margin: 0; padding: 0; position:absolute; top: 50%; margin-top: -27px; left: 295px; font-size: 0.8em; }
+#headerTop #pathways li { margin: 0; padding: 0; float: left; padding: 14px 20px; border-right: 1px solid rgba(255,255,255,0.5); }
+#headerTop #pathways li:last-child { border-right: none; }
+
+#headerTop #directoryButton { height: 45px; width: 107px; position: absolute; top: 50%; margin-top: -28px; right: 0px; background-image: url('http://txwes.edu/media/twu/style-assets/images/homepage/campus-directory.png'); background-repeat: no-repeat; background-size: contain; }
+
+#headerBottom { background-color: #191919; height: 46px; width: 1000px; position: relative; top: 0px; left: 0px; overflow: auto; }
+
+#headerBottom #globalNav { list-style-type: none; margin: 0; padding: 0; position: absolute; top: 50%; left: 0px; margin-top: -10px; margin-left: 15px; }
+#headerBottom #globalNav li { margin: 0; padding: 0; float: left; padding: 0px 15px; }
+
+#headerBottom #searchCT { position: absolute; top: 4px; right: 0px; }
+#headerBottom #searchCT .searchBar { background-color: #ffffff; height: 34px; width: 270px; float: left; padding: 4px 15px 0px; }
+#headerBottom #searchCT .searchBar input { background: none; border: none; width: 270px; font-size: 1.1em; color: #666; }
+#headerBottom #searchCT .searchBar input:focus { outline: none; }
+
+#contentCT { width: 1000px; background-color: #ffffff; margin: 0; padding: 0; overflow: auto; }
+
+#footerCT { background-color: #191919; color: #ffffff; width: 960px; position: relative; top: 0px; left: 0px; padding: 0px 20px; margin-bottom: 42px; }
+
+#footerCT #footerItems { width: 100%; overflow: auto; }
+#footerCT .footerItem { width: 270px; float: left; padding: 20px 25px; }
+#footerCT .footerItem #footerLogo { }
+#footerCT .footerItem #footerSmarter { }
+#footerCT .footerItem .footerTitle { font-size: 1.2em; color: rgba(255,255,255,0.5); margin-bottom: 20px; }
+#footerCT .footerItem .contactMap { float: left; margin-right: 15px; }
+#footerCT .footerItem .contactInfo { font-size: 0.9em; overflow: auto; }
+#footerCT .footerItem .socialButton { margin-right: 20px; float: left; height: 51px; width: 51px; }
+#footerCT .footerItem .socialButton.facebook { background-image: url('http://txwes.edu/media/twu/style-assets/images/homepage/facebook.png'); }
+#footerCT .footerItem .socialButton.facebook:hover { background-image: url('http://txwes.edu/media/twu/style-assets/images/homepage/facebook_hover.png'); }
+#footerCT .footerItem .socialButton.twitter { background-image: url('http://txwes.edu/media/twu/style-assets/images/homepage/twitter.png'); }
+#footerCT .footerItem .socialButton.twitter:hover { background-image: url('http://txwes.edu/media/twu/style-assets/images/homepage/twitter_hover.png'); }
+#footerCT .footerItem .socialButton.youtube { background-image: url('http://txwes.edu/media/twu/style-assets/images/homepage/youtube.png'); }
+#footerCT .footerItem .socialButton.youtube:hover { background-image: url('http://txwes.edu/media/twu/style-assets/images/homepage/youtube_hover.png'); }
+
+#footerCT #copyright { width: 100%; border-top: 1px solid rgba(255,255,255,0.5); color: rgba(255,255,255,0.5); text-align: center; font-size: 0.8em; padding: 15px 0px; }
+#footerCT #copyright #privacyPolicy { color: #ffffff; border-left: 1px solid rgba(255,255,255,0.5); padding-left: 10px; margin-left: 10px; }
+
+#goToCT { height: 42px; width: 1000px; background-color: rgba(0,75,141,0.9); position: fixed; bottom: 0px; left: 50%; margin-left: -500px; z-index: 99; }
+#goToCT .goToTitle { position: absolute; left: 0px; top: 0px; background-color: #ccc; color: #666; font-size: 1.1em; padding: 13px 25px; }
+#goToCT #goToNav { list-style-type: none; padding: 0; color: #ffffff; margin: 17px 0px 0px 120px; font-size: 0.8em; }
+#goToCT #goToNav li { margin: 0; display: inline-block; border-right: 1px solid #ffffff; padding: 0px 20px; }
+#goToCT #goToNav li:last-child { border: none; }
+
+a { color: inherit; text-decoration: none; }
+a:visited { color: inherit; }
+a img { border: none; }
+
+.pageBreak { width: 100%; height: 10px; background-color: #191919; }
+
+#breadcrumb { font-size: 0.9em; padding: 10px 28px; }
+
+/* Homepage Elements */
+
+.slider-banner { width:1000px; height:97px; position:relative; top:0px; left:0px; z-index:8; background-color:#ccc; }
+.slider-banner #slider-banner-icon { height:97px; width:112px; position:absolute; top:0px; left:0px; }
+.slider-banner #slider-banner-action { height:36px; width:149px; position:absolute; top:50%; right:25px; margin-top:-18px; }
+.slider-banner .slider-banner-content { width:600px; height:60px; position:absolute; top:30px; left:167px; color:#333; }
+.slider-banner .slider-banner-content .slider-banner-title { font-size:1.1em; }
+.slider-banner .slider-banner-content .slider-banner-title .slider-banner-date { font-size:.9em; color:#333; padding-left:10px; }
+.slider-banner .slider-banner-content a { color:inherit; }
+
+.slider-banner.emergency #slider-banner-icon { background-image:url('http://txwes.edu/media/twu/style-assets/images/emergency-icon.png'); }
+.slider-banner.emergency #slider-banner-action { background-image:url('http://txwes.edu/media/twu/style-assets/images/emergency-action.png'); }
+.slider-banner.emergency .slider-banner-content .slider-banner-title { color:red; }
+
+.slider-banner.promotion #slider-banner-icon { background-image:url('http://txwes.edu/media/twu/style-assets/images/promotion-icon.png'); }
+.slider-banner.promotion #slider-banner-action { background-image:url('http://txwes.edu/media/twu/style-assets/images/promotion-action.png'); }
+.slider-banner.promotion .slider-banner-content .slider-banner-title { color:blue; }
+
+.slider-banner.thanksgiving { background-color:#fed000; background-image:url('http://txwes.edu/media/twu/style-assets/images/thanksgiving-background.png'); background-position:right; background-repeat:no-repeat; }
+.slider-banner.thanksgiving #slider-banner-icon { background-image:url('http://txwes.edu/media/twu/style-assets/images/thanksgiving-icon.png'); }
+.slider-banner.thanksgiving #slider-banner-action { background-image:url('http://txwes.edu/media/twu/style-assets/images/thanksgiving-action.png'); }
+.slider-banner.thanksgiving .slider-banner-content .slider-banner-title { color:black; }
+
+.slider-banner.springbreak { background-color:#fed000; background-image:url('http://txwes.edu/media/twu/style-assets/images/spring-break-background.png'); background-position:right; background-repeat:no-repeat; }
+.slider-banner.springbreak #slider-banner-icon { background-image:url('http://txwes.edu/media/twu/style-assets/images/spring-break-icon.png'); }
+.slider-banner.springbreak #slider-banner-action { background-image:url('http://txwes.edu/media/twu/style-assets/images/spring-break-action.png'); }
+.slider-banner.springbreak .slider-banner-content .slider-banner-title { color:black; }
+
+.slider-banner.easter { background-color:#fed000; background-image:url('http://txwes.edu/media/twu/style-assets/images/easter_bg.png'); background-position:right; background-repeat:no-repeat; }
+.slider-banner.easter #slider-banner-icon { background-image:url('http://txwes.edu/media/twu/style-assets/images/easter_icon.png'); }
+.slider-banner.easter #slider-banner-action { background-image:url('http://txwes.edu/media/twu/style-assets/images/spring-break-action.png'); }
+.slider-banner.easter .slider-banner-content .slider-banner-title { color:black; }
+
+.slider-banner.memorialday { background-image:url('http://txwes.edu/media/twu/style-assets/images/memorial_day_banner.png'); background-position:right; background-repeat:no-repeat; }
+.slider-banner.memorialday #slider-banner-icon { background-image:url('http://txwes.edu/media/twu/style-assets/images/memorial_day_icon.png'); }
+.slider-banner.memorialday #slider-banner-action { background-image:url('http://txwes.edu/media/twu/style-assets/images/promotion-action.png'); }
+.slider-banner.memorialday .slider-banner-content .slider-banner-title { color:red; }
+	
+.slider-banner .slider-banner-content a { text-decoration:none; color:inherit; }
+
+#homepageTop { overflow:auto; position: relative; top: 0px; left: 0px; }
+
+#homepageTop #applyColumn { float: left; width: 210px; padding: 15px 20px; overflow: auto; }
+
+#homepageTop #applyColumn #applyTitle { font-size: 1.3em; background-image: url('http://txwes.edu/media/twu/style-assets/images/homepage/apply-now.png'); background-repeat: no-repeat; padding: 5px 0px 5px 45px; }
+#homepageTop #applyColumn #applyTitle:hover { color: #004b8d; background-image: url('http://txwes.edu/media/twu/style-assets/images/homepage/apply-now-hover.png'); }
+#homepageTop #applyColumn #applyContent { font-size: 0.9em; margin: 15px 0px; color: #666; }
+#homepageTop #applyColumn #applyButton { background-image: url('http://txwes.edu/media/twu/style-assets/images/homepage/apply-online.png'); height: 95px; width: 209px; }
+
+#homepageTop #applyColumn #classTitle { font-size: 1.3em; }
+#homepageTop #applyColumn #classContent { margin: 15px 0px 20px; }
+#homepageTop #applyColumn #classContent ul { margin: 0px; padding: 0px; list-style-image: url('http://txwes.edu/media/twu/style-assets/images/yellowBullet.png'); list-style-position: inside; }
+#homepageTop #applyColumn #classContent ul li { padding: 3px; }
+#homepageTop #applyColumn #classContent ul li a:hover { color: #004b8d; }
+
+#homepageTop #applyColumn #sendInfoButton { background-image: url('http://txwes.edu/media/twu/style-assets/images/homepage/send-me-info.png'); height: 36px; width: 208px; background-color: #004b8d; position: absolute; bottom: 25px; left: 20px; }
+
+#homepageTop #contentColumn { width: 750px; overflow: auto; }
+
+#homepageTop #contentColumn #homepageRotator { width: 750px; height: 282px; background-color: #000000; overflow: visible; position: relative; left: 0px; top: 0px; }
+#homepageTop #contentColumn #homepageRotator .rotatorItem { width: 100%; height: 100%; cursor: pointer; }
+#homepageTop #contentColumn #homepageRotator .rotatorItem img { width: 100%; height: 100%; }
+#homepageTop #contentColumn #homepageRotator #videoPlayerContainer { position: absolute; width: 450px; height: 225px; z-index: 10; bottom: 740px; right: 145px; padding: 9px; background-image: url(http://txwes.edu/media/twu/style-assets/images/homepageVideoBackground.png); }
+#homepageTop #contentColumn #homepageRotator #videoPlayerContainer img { position:absolute;top:0px;right:-30px;cursor:pointer; }
+
+#homepageTop #contentColumn #actionBar { overflow: auto; }
+
+#homepageTop #contentColumn #actionBar .actionItem { float: left; width: 219px; height: 175px; border-left: 1px solid #ccc; padding: 15px; overflow: auto; position: relative; top: 0px; left: 0px; }
+#homepageTop #contentColumn #actionBar .actionItem .actionTitle { font-size: 1.3em; border-bottom: 1px dashed #ccc; padding: 5px 0px 15px 50px; background-repeat: no-repeat; }
+#homepageTop #contentColumn #actionBar .actionItem .actionContent { padding: 10px; font-size: 0.9em; color: #666; }
+#homepageTop #contentColumn #actionBar .actionItem .actionButton { width: 208px; height: 36px; background-color: #fed000; position: absolute; bottom: 25px; left: 50%; margin-left: -104px; }
+
+#homepageTop #contentColumn #actionBar #findMyMajor.actionItem .actionTitle { background-image: url('http://txwes.edu/media/twu/style-assets/images/homepage/major.png'); }
+#homepageTop #contentColumn #actionBar #findMyMajor.actionItem .actionTitle:hover { background-image: url('http://txwes.edu/media/twu/style-assets/images/homepage/major-hover.png'); color: #004b8d; }
+#homepageTop #contentColumn #actionBar #findMyMajor.actionItem .actionButton { background-image: url('http://txwes.edu/media/twu/style-assets/images/homepage/majors-degrees-button.png'); }
+
+#homepageTop #contentColumn #actionBar #visitCampus.actionItem .actionTitle { background-image: url('http://txwes.edu/media/twu/style-assets/images/homepage/campus.png'); }
+#homepageTop #contentColumn #actionBar #visitCampus.actionItem .actionTitle:hover { background-image: url('http://txwes.edu/media/twu/style-assets/images/homepage/campus-hover.png'); color: #004b8d; }
+#homepageTop #contentColumn #actionBar #visitCampus.actionItem .actionButton { background-image: url('http://txwes.edu/media/twu/style-assets/images/homepage/schedule-a-visit-button.png'); }
+
+#homepageTop #contentColumn #actionBar #whatWillItCost.actionItem .actionTitle { background-image: url('http://txwes.edu/media/twu/style-assets/images/homepage/cost.png'); }
+#homepageTop #contentColumn #actionBar #whatWillItCost.actionItem .actionTitle:hover { background-image: url('http://txwes.edu/media/twu/style-assets/images/homepage/cost-hover.png'); color: #004b8d; }
+#homepageTop #contentColumn #actionBar #whatWillItCost.actionItem .actionButton { background-image: url('http://txwes.edu/media/twu/style-assets/images/homepage/tuition-fees-button.png'); }
+
+#homepageBottom { overflow: auto; background-color: #f3f3f3; }
+
+#homepageBottom #homepageNews { background-color: #ffffff; border-right: 1px solid #ccc; float: left; width: 579px; padding: 10px 20px; }
+#homepageBottom #homepageNews #homepageNewsTitle { background-image: url('http://txwes.edu/media/twu/style-assets/images/homepage/news.png'); background-repeat: no-repeat; padding: 3px 0px 0px 100px; margin-bottom: 15px; }
+#homepageBottom #homepageNews #homepageNewsTitle #moreNews { background-image: url('http://txwes.edu/media/twu/style-assets/images/homepage/more-news.png'); width: 123px; height: 29px; }
+#homepageBottom #homepageNews #homepageNewsList { width: 579px; overflow: auto; margin-bottom: 20px; }
+#homepageBottom #homepageNews #homepageNewsList .homepageNewsItem { float: left; margin-right: 30px; width: 170px; font-size: 0.8em; }
+#homepageBottom #homepageNews #homepageNewsList .homepageNewsItem:last-child { margin-right: 0px; }
+#homepageBottom #homepageNews #homepageNewsList .homepageNewsItem img { width: 170px; margin-bottom: 8px; }
+
+#homepageBottom #homepageEvents { float: right; width: 340px; padding: 10px 20px; }
+#homepageBottom #homepageEvents #homepageEventsTitle { background-image: url('http://txwes.edu/media/twu/style-assets/images/homepage/events.png'); background-repeat: no-repeat; padding: 3px 0px 0px 120px; margin-bottom: 10px; }
+#homepageBottom #homepageEvents #homepageEventsTitle #moreEvents { background-image: url('http://txwes.edu/media/twu/style-assets/images/homepage/full-calendar.png'); width: 134px; height: 29px; }
+#homepageBottom #homepageEvents .homepageEventsItem { border-bottom: 1px dashed #ccc; padding: 10px 3px; overflow: auto; }
+#homepageBottom #homepageEvents .homepageEventsItem:last-child { border-bottom: none; }
+#homepageBottom #homepageEvents .homepageEventsItem .eventDate { float: left; text-align: center; }
+#homepageBottom #homepageEvents .homepageEventsItem .eventDate .eventMonth { font-size: 0.7em; }
+#homepageBottom #homepageEvents .homepageEventsItem .eventDate .eventDay { }
+#homepageBottom #homepageEvents .homepageEventsItem .eventTitle { font-size: 0.8em; margin-left: 45px; }
+
+/* Navigation Elements */
+
+#parentNav { position: absolute; top: 0px; left: 0px; z-index: 2; width: 225px; height: 39px; background-image: url('http://txwes.edu/media/twu/style-assets/images/parentNavSection.png'); background-repeat: no-repeat; color: #ffffff; font-size: 1.2em; padding-left: 25px; padding-top: 15px; cursor: pointer; }
+#parentNav:hover { color: #fed000; }
+
+#sectionNav { width: 224px; margin: 0px; padding: 0px; list-style-type: none; }
+#sectionNav li.sectionLink { padding: 10px 15px; margin: 0px 10px; border-top: 1px solid #ffffff; border-bottom: 1px solid #cccccc; }
+#sectionNav li.sectionLink:first-child { border-top: none; }
+#sectionNav li.sectionLink.current { padding: 10px 25px; margin: 0px; background-color: #ccc; border-bottom: none; }
+#sectionNav li.sectionLink.current + li { border-top: none; }
+#sectionNav li.sectionLink.current.sub { padding: 10px 25px 0px; }
+
+#sectionNav #subNav { width: 189px; margin: 10px 0px 0px -25px; padding: 10px 0px 10px 35px; list-style-type: none; list-style-position:outside; background-color: #ffffff; font-size: 0.9em; }
+#sectionNav #subNav li.subLink { padding: 5px 0px; margin: 0px; border: none; }
+#sectionNav #subNav li.subLink.current { padding: 5px 0px; margin: 0px; border: none; background-color: #ffffff; list-style-image: url('http://txwes.edu/media/twu/style-assets/images/yellowArrowBullet.png'); }
+
+/* Apply Now Control */
+
+#applyNowCtrl { background-image: url('http://txwes.edu/media/twu/style-assets/images/floatingApplyNowBackground2.png'); background-repeat: no-repeat; width: 253px; height: 220px; position: absolute; top: 172px; left: 50%; margin-left: 249px; }
+#applyNowCtrl #applyNowBtn { background-image: url('http://txwes.edu/media/twu/style-assets/images/floatingApplyNowButtonUp.png'); background-repeat: no-repeat; height: 44px; width: 163px; position: absolute; top: 5px; left: 24px; }
+#applyNowCtrl #applyNowBtn:hover { background-image: url('http://txwes.edu/media/twu/style-assets/images/floatingApplyNowButtonDown.png'); top: 6px; left: 25px; }
+#applyNowCtrl #status { position: absolute; top: 62px; left: 25px; width: 135px; color: #fed000; font-size: 0.7em; border-right: 1px solid #666; padding: 5px 0px; }
+#applyNowCtrl #signIn { position: absolute; top: 67px; right: 30px; color: #ffffff; font-size: 0.7em; }
+#applyNowCtrl #applyLinks { position: absolute; top: 90px; left: 0px; list-style-image: url('http://txwes.edu/media/twu/style-assets/images/greyBullet.png'); color: #004b8d; }
+#applyNowCtrl #applyLinks li:hover { list-style-image: url('http://txwes.edu/media/twu/style-assets/images/yellowBullet.png'); text-decoration: underline; }
+
+/* Page Layouts */
+
+/* Column Layout Elements */
+
+#columnCT { overflow: auto; background-image: url('columnCTbg.png'); background-repeat: repeat-y; }
+h1.pageTitle { float: left; width: 726px; margin:0px; padding: 13px 0px 13px 50px; font-size: 1.4em; font-weight: bold; background-image: url('http://txwes.edu/media/twu/style-assets/images/innerPageTitleBackground.png'); background-repeat: no-repeat; color: #666; }
+#columnCT #leftCol { width: 224px; float: left; position: relative; top: 0px; left: 0px; padding-top: 54px; }
+#columnCT #centerCol { width: 712px; float: left; padding: 0px 32px 0px 32px; min-height: 450px; }
+
+/* 3 Column */
+
+#contentCT.threeCol #columnCT #centerCol { width: 460px; border-right: 1px solid #ccc; }
+#contentCT.threeCol #columnCT #rightCol { width: 224px; float: right; background-color: #ffffff; padding: 0px 14px 0px 12px; }
+#contentCT.threeCol #columnCT #rightCol.applyNowCol { padding-top: 165px; }
+
+/* No Nav */
+
+#contentCT.noNav #columnCT { background-image: none; }
+#contentCT.noNav #columnCT h1.pageTitle { width: 700px; }
+#contentCT.noNav #columnCT #centerCol { width: 685px; border-right: 1px solid #ccc; }
+#contentCT.noNav #columnCT #rightCol { width: 224px; float: right; padding: 0px 14px 0px 12px; }
+
+/* 1 Column */
+
+#contentCT.oneCol #columnCT { background-image: none; }
+#contentCT.oneCol #columnCT h1.pageTitle { width: 950px; }
+#contentCT.oneCol #columnCT #centerCol { width: 936px; }

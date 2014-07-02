@@ -1,0 +1,68 @@
+@media screen and (min-width:600px) and (max-width:799px) {
+	
+	body { border-top: 4px solid #fed000; }
+	
+	#outerCT { width: 100%; position: relative; top: 0px; left: 0px; }
+	
+	#headerTop { border: none; width: 100% }
+	#headerTop #logo { width: 224px; height: 51px; margin-top: -25px; left: 10px; }
+	#headerTop #pathways { display: none; }
+	#headerTop #directoryButton { right: 0px; margin-top: -19px; height: 38px; width: 90px; }
+	
+	#headerBottom { width: 100%; overflow: visible; margin-bottom: 10px; height: 77px; }
+	#headerBottom #searchCT { top: -65px; right: 108px; }
+	#headerBottom #searchCT .searchBar { width: 160px; }
+	#headerBottom #searchCT .searchBar input { width: 150px; }
+	#headerBottom #globalNav { top: 0px; left: 0px; margin: 0px; }
+	#headerBottom #globalNav li { width: calc(33.33% - 60px); padding: 10px 40px 10px 20px; }
+	#headerBottom #globalNav li:nth-child(1) { border-bottom: 1px solid #ccc; }
+	#headerBottom #globalNav li:nth-child(2) { border-bottom: 1px solid #ccc; }
+	#headerBottom #globalNav li:nth-child(3) { border-bottom: 1px solid #ccc; }
+	
+	#contentCT { width: 100%; background: none; }
+	
+	#footerCT { width: calc(100% - 40px); margin-top: 10px; margin-bottom: 0px; }
+	#footerCT #footerItems { width: 560px; margin-left: auto; margin-right: auto; }
+	#footerCT .footerItem { width: 230px; }
+	#footerCT .footerItem:last-child { display: none; }
+	#footerCT .footerItem .contactMap { display: none; }
+	
+	#goToCT { width: 100%; height: 85px; position: relative; bottom: 0px; left: 0px; margin-left: 0px; background-color: #ccc; }
+	#goToCT .goToTitle { height: 59px; background-color: #f3f3f3; }
+	#goToCT #goToNav { color: #666; margin-top: 0px; padding-top: 17px; }
+	#goToCT #goToNav li { margin-bottom: 20px; border-right: 1px solid #666; }
+	
+	#breadcrumb { background-color: #ffffff; float: right; width: calc(100% - 260px); padding: 10px 25px; position: absolute; top: 179px; right: 0px; }
+	
+	/* Navigation Elements */
+
+	#parentNav { top: 0px; left: 0px; width: 176px; background-image: none; background-color: #004b8d; }
+	#sectionNav { width: 200px; }
+	#sectionNav #subNav { width: 165px; }
+	
+	/* Page Layouts */
+
+	/* Column Layout Elements */
+
+	#columnCT { background-position: -24px 0px; width: auto; margin-bottom: 10px; }
+	h1.pageTitle { width: calc(100% - 235px); padding: 5px 0px 5px 25px; font-size: 1em; font-weight: bold; background-image: none; background-color: #fed000; color: #000000; margin-top: 36px; }
+	#columnCT #leftCol { width: 200px; margin-right: 10px; }
+	#columnCT #centerCol { width: calc(100% - 260px); background-color: #ffffff; padding: 0px 25px; }
+	
+	/* 3 Column */
+	
+	#contentCT.threeCol #columnCT #centerCol { width: calc(100% - 260px); border: none; padding: 0px 25px; }
+	#contentCT.threeCol #columnCT #rightCol { display: none; }
+	
+	/* 1 Column */
+	
+	#contentCT.oneCol #breadcrumb { width: calc(100% - 260px); right: 0px; }
+	#contentCT.oneCol #columnCT { background-image: none; }
+	#contentCT.oneCol #columnCT h1.pageTitle { width: calc(100% - 235px); }
+	#contentCT.oneCol #columnCT #centerCol { width: calc(100% - 260px); padding: 0px 25px; }
+	
+	/* Content Elements & Layouts */
+	
+	#contactInfoCT { width: 201px; }
+	
+}

@@ -1,0 +1,63 @@
+@media screen and (min-width:800px) and (max-width:1000px) {
+	
+	body { border-top: 4px solid #fed000; }
+	
+	#outerCT { width: 100%; position: relative; top: 0px; left: 0px; }
+	
+	#headerTop { border: none; width: 100%; }
+	#headerTop #logo { width: 224px; height: 51px; margin-top: -25px; left: 10px; }
+	#headerTop #pathways { display: none; }
+	#headerTop #directoryButton { right: 176px; margin-top: -19px; height: 38px; width: 90px; }
+	
+	#headerBottom { width: 100%; overflow: visible; margin-bottom: 10px; }
+	#headerBottom #searchCT { top: -65px; right: 280px; }
+	#headerBottom #searchCT .searchBar { width: 160px; }
+	#headerBottom #searchCT .searchBar input { width: 150px; }
+	#headerBottom #globalNav { margin-left: 0px; width: 100%; }
+	#headerBottom #globalNav li { padding: 0px 0px; width: 20%; text-align: center; }
+	
+	#contentCT { width: 100%; background: none; }
+	
+	#footerCT { width: calc(100% - 40px); margin-top: 10px; margin-bottom: 0px; }
+	#footerCT #footerItems { width: 640px; margin-left: auto; margin-right: auto; }
+	#footerCT .footerItem:last-child { display: none; }
+	
+	#goToCT { width: 100%; height: 85px; position: relative; bottom: 0px; left: 0px; margin-left: 0px; background-color: #ccc; }
+	#goToCT .goToTitle { height: 59px; background-color: #f3f3f3; }
+	#goToCT #goToNav { color: #666; margin-top: 0px; padding-top: 17px; }
+	#goToCT #goToNav li { margin-bottom: 20px; border-right: 1px solid #666; }
+	#breadcrumb { background-color: #ffffff; float: right; width: calc(100% - 280px); padding: 10px 25px; position: absolute; top: 148px; right: 0px; }
+	
+	
+	/* Navigation Elements */
+
+	#parentNav { top: 0px; left: 0px; width: 196px; background-image: none; background-color: #004b8d; }
+	#sectionNav { width: 220px; }
+	#sectionNav #subNav { width: 185px; }
+	
+	/* Page Layouts */
+
+	/* Column Layout Elements */
+
+	#columnCT { background-position: -4px 0px; width: auto; margin-bottom: 10px; }
+	h1.pageTitle { width: calc(100% - 255px); padding: 5px 0px 5px 25px; font-size: 1em; font-weight: bold; background-image: none; background-color: #fed000; color: #000000; margin-top: 36px; }
+	#columnCT #leftCol { width: 220px; margin-right: 10px; }
+	#columnCT #centerCol { width: calc(100% - 280px); background-color: #ffffff; padding: 0px 25px; }
+	
+	/* 3 Column */
+	
+	#contentCT.threeCol #columnCT #centerCol { width: calc(100% - 280px); border: none; padding: 0px 25px; }
+	#contentCT.threeCol #columnCT #rightCol { display: none; }
+	
+	/* 1 Column */
+	
+	#contentCT.oneCol #breadcrumb { width: calc(100% - 280px); right: 0px; }
+	#contentCT.oneCol #columnCT { background-image: none; }
+	#contentCT.oneCol #columnCT h1.pageTitle { width: calc(100% - 255px); }
+	#contentCT.oneCol #columnCT #centerCol { width: calc(100% - 280px); padding: 0px 25px; }
+	
+	/* Content Elements & Layouts */
+	
+	#contactInfoCT { width: 221px; }
+	
+}
