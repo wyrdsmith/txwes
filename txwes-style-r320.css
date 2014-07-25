@@ -1,10 +1,7 @@
 @media screen and (min-width:0px) and (max-width:479px) {
 	
-	#headerTop #logo { width: 224px; height: 51px; margin-top: -25px; left: 10px; }
+	#headerTop #logo { width: 224px; height: 51px; margin-top: -25px; left: 10px; background-image: url('http://cms.txwes.edu/media/twu/style-assets/images/university-logo-320.png'); }
 	
-	#footerCT .footerItem { width: calc(100% - 50px); float: none; }
-	
-	#goToCT #goToNav li { margin-bottom: 10px; border-right: none; width: calc(50% - 40px); border-bottom: 1px dashed #ccc; padding-bottom: 10px; }
-	#goToCT #goToNav li:nth-child(7) { border: none; }
+	#goToCT #goToNav li { margin-bottom: 20px; border: none; width: calc(50% - 40px); }
 	
 }

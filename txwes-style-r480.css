@@ -19,52 +19,89 @@
 	#headerBottom #globalNav li:nth-child(2) { border-bottom: 1px solid #ccc; }
 	#headerBottom #globalNav li:nth-child(3) { border-bottom: 1px solid #ccc; }
 	
-	#contentCT { width: 100%; background: none; }
+	#contentCT { width: 100%; background-image: none; background-color: #f3f3f3; margin-bottom: 0px; position: relative; top: 0px; left: 0px; overflow:visible; }
 	
-	#footerCT { width: 100%; margin-top: 0px; margin-bottom: 0px; padding: 0px; }
-	#footerCT .footerItem { width: calc(50% - 50px); }
-	#footerCT .footerItem:last-child { display: none; }
-	#footerCT .footerItem #footerLogo { display: none; }
-	#footerCT .footerItem .contactMap { display: none; }
+	#footerCT { width: 100%; margin-bottom: 0px; }
+
+	#footerCT #logoCT { float: initial; width: 240px; margin-left: auto; margin-right: auto; overflow: auto; }
+	#footerCT #logoCT #footerLogo { float: initial; margin-top: 10px; }
+	#footerCT #logoCT #footerSmarter { float: inital; margin-top: 20px; }
+	#footerCT #footerContactInfo { float: initial; width: 240px; margin-left: auto; margin-right: auto; }
+	#footerCT #footerContactInfo .contactMap { float: initial; width: 240px; margin-right: 0px; margin-bottom: 10px; }
+	#footerCT #footerSocial { float: initial; width: 240px; margin-left: auto; margin-right: auto; }
+	#footerCT #footerSocial .socialButton.facebook { background-image: url('http://txwes.edu/media/twu/style-assets/images/homepage/facebook_hover.png'); }
+	#footerCT #footerSocial .socialButton.twitter { background-image: url('http://txwes.edu/media/twu/style-assets/images/homepage/twitter_hover.png'); }
+	#footerCT #footerSocial .socialButton.youtube { background-image: url('http://txwes.edu/media/twu/style-assets/images/homepage/youtube_hover.png'); }
 	
-	#goToCT { width: 100%; height: auto; position: relative; bottom: 0px; left: 0px; margin-left: 0px; background-color: #f3f3f3; }
-	#goToCT .goToTitle { height: auto; background-color: #f3f3f3; position: initial; top: 0px; left: 0px; width: auto; background-color: #fff; padding: 5px 25px; }
-	#goToCT #goToNav { color: #666; margin: 20px 0px 0px 0px; }
-	#goToCT #goToNav li { margin-bottom: 10px; border-right: none; width: calc(33% - 40px); border-bottom: 1px dashed #ccc; padding-bottom: 10px; }
-	#goToCT #goToNav li:nth-child(7) { border: none; }
+	#footerCT #copyright { width: calc(100% - 40px); }
 	
-	#breadcrumb { background-color: #f3f3f3; float: none; width: auto; padding: 10px 25px; position: relative; top: 54px; right: 0px; z-index: 10; } /* jQuery get height of Parent Nav to get top */
+	#goToCT { width: auto; height: auto; position: relative; bottom: 0px; left: 0px; margin-left: 0px; background-color: #004b8d; margin-top: 0px; margin-bottom: 0px; }
+	#goToCT .goToTitle { height: auto; background-color: #f3f3f3; position: relative; width: auto; }
+	#goToCT #goToNav { color: #ffffff; margin: 0px; padding-top: 17px; }
+	#goToCT #goToNav li { margin-bottom: 20px; border: none; width: calc(33% - 40px); }
+	
+	#breadcrumb { display: none; }
+	
+	/* Homepage Elements */
+	
+	.kfc #headerBottom { margin-bottom: 0px; }
+	.kfc #homepageTop { width: 100%; margin-bottom: 0px; position: absolute; top: 0px; left: 0px; z-index: -1; }
+	.kfc #homepageTop #contentColumn { width: 100%; }
+	.kfc #homepageTop #contentColumn #homepageRotator { width: 100%; }
+	.kfc #homepageBottom { margin-bottom: 0px; background: none; margin-top: 284px; }
+	.kfc #homepageBottom #homepageNavigation { width: 100%; }
+	.kfc #homepageBottom #homepageNavigation ul { margin: 0px; width: 100%; }
+	.kfc #homepageBottom #homepageNavigation ul li { left: 0px; text-align: left; padding: 10px 10px 10px 75px; background-image: none; cursor: pointer; background-color: #004b8d; margin-bottom: 0px; color: #fed000; border-bottom: 2px solid #002460; }
+	.kfc #homepageBottom #homepageNavigation ul li:last-child { border-bottom: none; }
+	.kfc #homepageBottom #homepageNavigation ul li:hover { background-image: none; background-color: #ffffff; color: #004b8d; }
+	.kfc #homepageBottom #homepageNavigation ul li.active { background-image: none; background-color: #004b8d; color: #fed000; }
+	.kfc #homepageBottom #homepageNavigation ul li .title { color: #ffffff; }
+	.kfc #homepageBottom #homepageNavigation ul li:hover .title { color: #000000; }
+	.kfc #homepageBottom #homepageNavigation ul li.active .title { color: #ffffff; }
+	.kfc #homepageBottom #homepageContent { display: none; }
 	
 	/* Navigation Elements */
 
-	#parentNav { position: relative; top: -36px; left: 0px; width: auto; background-image: none; background-color: #004b8d; } /* jQuery get height of breadcrumb * -1 to get top */
-	#sectionNav { width: 100%; display: none; }
+	#parentNav { position: relative; top: 0px; left: 0px; width: auto; background-image: none; background-color: #004b8d; }
+	#parentNav #openNav { display: block; }
+	#sectionNav { width: 100%; display: none; background-color: #191919; color: #ffffff; }
+	#sectionNav li.sectionLink { border-bottom: 1px solid #f3f3f3; }
+	#sectionNav li.sectionLink:last-child { border-bottom: none; }
+	#sectionNav li.sectionLink.current { background: none; }
 	#sectionNav li.sectionLink.current.sub { padding-right: 0px; }
-	#sectionNav #subNav { width: auto; }
+	#sectionNav #subNav { width: auto; color: #000000; background-color: #f3f3f3; }
+	#sectionNav #subNav li.subLink.current { background-color: #f3f3f3; }
 	
 	/* Page Layouts */
-
+	
 	/* Column Layout Elements */
 
-	#columnCT { background-image: none; background-color: #f3f3f3; width: auto; margin-bottom: 0px; position: relative; top: 0px; left: 0px; overflow:visible; }
 	h1.pageTitle { width: auto; padding: 5px 0px 5px 25px; font-size: 1em; font-weight: bold; background-image: none; background-color: #fed000; color: #000000; margin-top: 0px; float: none; }
-	#columnCT #leftCol { width: auto; margin-right: 0px; float: none; padding-top: 0px; position: initial; }
-	#columnCT #centerCol { width: auto; background-color: #f3f3f3; padding: 0px 25px; float: none; overflow: auto; }
+	#contentCT #leftCol { width: auto; margin-right: 0px; float: none; padding-top: 0px; position: initial; }
+	#contentCT #centerCol { width: auto; background-color: #f3f3f3; padding: 0px 25px; float: none; overflow: auto; }
 	
 	/* 3 Column */
 	
-	#contentCT.threeCol #columnCT #centerCol { width: auto; border: none; padding: 0px 25px; margin-bottom: 300px; } /* Use ContactInfoCT height to set margin-bottom */
-	#contentCT.threeCol #columnCT #rightCol { display: none; }
+	#contentCT.threeCol #centerCol { width: auto; border: none; padding: 0px 25px; margin-bottom: 300px; }
+	#contentCT.threeCol #rightCol { display: none; }
 	
 	/* 1 Column */
 	
 	#contentCT.oneCol #breadcrumb { width: auto; left: 0px; }
-	#contentCT.oneCol #columnCT { background-image: none; }
-	#contentCT.oneCol #columnCT h1.pageTitle { width: auto; }
-	#contentCT.oneCol #columnCT #centerCol { width: auto; padding: 0px 25px; }
+	#contentCT.oneCol #contentCT { background-image: none; }
+	#contentCT.oneCol h1.pageTitle { width: auto; }
+	#contentCT.oneCol #centerCol { width: auto; padding: 0px 25px; }
+	
+	/* No Nav */
+	
+	#contentCT.noNav { position: relative; top: 0px; left: 0px; }
+	#contentCT.noNav #breadcrumb { display: none; }
+	#contentCT.noNav #centerCol { width: auto; border-right: none; }
+	#contentCT.noNav h1.pageTitle { width: auto; margin-top: 0px; color: #ffffff; background-color: #004b8d; font-size: 1.3em; padding-top: 10px; padding-bottom: 10px; }
+	#contentCT.noNav #rightCol { width: auto; background-color: #f3f3f3; position: initial; float: initial; }
 	
 	/* Content Elements & Layouts */
 	
-	#contactInfoCT { width: 100%; margin-top: 0px; height: 300px; position: absolute; bottom: -300px; left: 0px; z-index: 10; background-color: #f3f3f3; }  /* Get ContactInfoCT height in jQuery and set here and * -1 to get bottom */
+	#contactInfoCT { width: 100%; margin-top: 0px; height: 300px; position: absolute; bottom: -300px; left: 0px; z-index: 10; background-color: #f3f3f3; }
 	
 }

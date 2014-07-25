@@ -20,12 +20,13 @@
 
 /* Contact Info */
 
-#contactInfoCT { width: 224px; margin-top: 100px; }
+#contactInfoCT { width: 224px; margin-top: 50px; float: left; }
 #contactInfoCT .header { background-color: #004b8d; background-image: url('http://txwes.edu/media/twu/style-assets/images/contact-icon.png'); background-repeat: no-repeat; background-position: 10px 5px; color: #ffffff; padding: 5px 35px; }
 #contactInfoCT .content { padding: 5px 15px; font-size: 0.8em; }
 #contactInfoCT .title { border-bottom: 1px dashed #ccc; padding: 0px 0px 5px; font-size: 1.2em; }
 #contactInfoCT .spacer { border-top: 1px solid #ccc; background-color: #ffffff; height: 1px; width: 100%; margin-top: 10px; margin-bottom: 10px; }
 #contactInfoCT h5 { margin: 0; padding: 0; font-size: 1.2em; font-weight: normal; color: #002460; }
+#contentCT.noNav #contactInfoCT { float: right; margin-right: 14px; background-color: #f3f3f3; }
 
 /* Action Box - Grey box in Right Column, has header and text, used for calls to actions */
 
